@@ -1,0 +1,69 @@
+1. Navigation & Header
+
+Länkar:
+- Upptäck
+- Aktiviteter
+- Boende
+- Hitta hit
+
+2. Hero
+Rubrik: 
+Naturen väntar i Norrgläntan
+
+Text:
+Upptäck vidsträckta skogar, stilla sjöar och storslagna vyer. I Norrgläntan finns plats för både äventyr och avkoppling.
+
+Länk/Knapp:
+Upptäck Norrgläntan
+
+3. Introduktion
+Rubrik: 
+    
+
+Text: 
+I Norrgläntan är naturen alltid nära. Här möts skogar, sjöar och berg i ett landskap som bjuder in till upplevelser året runt. Vandra längs slingrande leder, ta dig ut på vattnet eller hitta en lugn plats och njut av omgivningarna.
+
+Oavsett om du söker äventyr eller bara vill komma bort en stund finns det alltid något nytt att upptäcka.
+
+4. Aktiviteter
+Rubrik:
+Upplev Norrgläntan
+
+Tre puffar:
+
+Puff 1:
+Vandra
+Följ leder genom skog och över öppna höjder. Här finns vandringar för både korta utflykter och längre dagar ute i naturen.
+
+Puff 2:
+Paddla
+Ta dig ut på Norrgläntans sjöar och upptäck landskapet från vattnet. Hitta din egen vik eller stanna till vid någon av rastplatserna längs stranden.
+
+Puff 3:
+Upptäck
+Ibland är det bästa äventyret det som inte är planerat. Utforska skogar och utsiktsplatser och upptäck dina egna favoriter längs vägen.
+
+5. Avslutande sektion:
+Rubrik:
+Planera ditt besök
+
+Text:
+Norrgläntan har något att erbjuda under hela året. Här hittar du boenden nära naturen och bra utgångspunkter för områdets aktiviteter. Börja planera ditt besök och hitta det som passar dig.
+
+Länk/knapp:
+Planera ditt besök
+
+6. Footer
+
+Norrgläntan
+Naturupplevelser året runt.
+
+Kontakt
+info@norrglantan.example
+010-123 45 67
+
+Länkar:
+- Upptäck
+- Aktiviteter
+- Boende
+- Hitta hit
