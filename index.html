@@ -11,27 +11,29 @@
 </head>
 
 <body>
-    <!----------HEADER----------->
-    <header class="header">
-        <div class="header wrapper">
+    <!--Header-->
+    <header>
+        <div class="header-wrapper">
 
-        <img src="bilder/logotyp_svart.png" alt="Norrgläntan logotyp">
+        <img src="bilder/logotyp_vit.png" alt="logo" class="logo" name="logo">
 
         <span>Norrgläntan</span>
 
         <nav>
             <ul>
-                <li><a href="Upptäck">Upptäck</a></li>
-                 <li><a href="Aktivitet">Aktivitet</a></li>
-                 <li><a href="Boende">Boende</a></li>
-                 <li><a href="hitta hit">Hitta hit</a></li>
+                <li><a href="#">Upptäck</a></li>
+                 <li><a href="#">Aktivitet</a></li>
+                 <li><a href="#">Boende</a></li>
+                 <li><a href="#">Hitta hit</a></li>
             </ul>
         </nav>
 
         </div>
     </header>
 
-    <!--------HERO SECTION-------->
+    <main> 
+        
+    <!--Hero-->
 <section class="hero">
     <div class="hero-content">
         <h1>Naturen väntar <br>
@@ -44,65 +46,81 @@
 
             <button class="hero-button">upptäck norrgläntan</button>
     </div>
+</section>
 
-
-    <!-----Intro----->
-    <intro>Nära till naturen</intro>
+    <!--Nära till naturen-->
+    <h2>Nära till naturen</h2>
     <p>I norrgläntan är naturen alltid nära. Här möts skogar, sjöar och berg i ett landskap som <br>
     bjuder in till upplevelser året runt. Vandra längs slingrande leder, ta dig ut på vattnet eller<br>
     hitta en lugn plats och njut av omgivningarna.</p>
 
 
-<!-----Aktiviteter----->
-<section class="aktiviteter">
+<!--Aktiviteter-->
+<div class="aktiviteter">
+    <section class="aktiviteter">
     <h2>Upplev Norrgläntan</h2>
 
-    <div class="card">
-        <article class="card">
-    <img src="bilder/hero.jpg" alt="Vandring i naturen">
-    <div class="card-content"> 
-        <h3>Vandra</h3>
-        <p>Följ leder genom skog och över öppna höjder.<br>
-        Här finns vandringar för både korta utflykter <br>
-         och längre dagar ute i naturen</p>
+<div class="card-container">
 
+    <div class="card">
+        <img src="bilder/vandra.jpg" alt="Vandring i naturen">
+        <div class="card-content">
+            <h3>Vandra</h3>
+            <p>
+                Följ leder genom skog och över öppna höjder.
+                Här finns vandringar för både korta utflykter
+                och längre dagar ute i naturen.
+            </p>
+        </div>
     </div>
-    </article>
-
 
     <div class="card">
-        <article class="card">
-    <img src="bilder/paddla.jpg" alt="paddla">
+        <img src="bilder/paddla.jpg" alt="Paddla">
         <div class="card-content">
             <h3>Paddla</h3>
-        <p>Ta dig ut på Norrgläntans sjöar och upptäck<br>
-             landskapet från vattnet. Hitta din egen vik<br>
-             eller stanna till vid någon av rastplatserna<br>
-              längs stranden</p>
-
+            <p>
+                Ta dig ut på Norrgläntans sjöar och upptäck
+                landskapet från vattnet. Hitta din egen vik
+                eller stanna till vid någon av rastplatserna
+                längs stranden.
+            </p>
+        </div>
     </div>
-    </article>
 
-
-        <div class="card">
-        <article class="card">
-    <img src="bilder/upptack.jpg" alt="upptäcka">
+    <div class="card">
+        <img src="bilder/upptack.jpg" alt="Upptäcka">
         <div class="card-content">
             <h3>Upptäcka</h3>
-        <p>Ibland är det bästa äventyret det som inte är <br>
-            planerat. Utforska skogar och utsiktsplatser <br>
-            och upptäck dina egna favoriter längs vägen.</p>
+            <p>
+                Ibland är det bästa äventyret det som inte är
+                planerat. Utforska skogar och utsiktsplatser
+                och upptäck dina egna favoriter längs vägen.
+            </p>
         </div>
-    </article>
+    </div>
 
-    </section>
+</div>
+</div>
 
+<!--Planera-->
+<section class="planera">
+    <h2>Planera ditt besök</h2>
 
+    <p>
+        Norrgläntan har något att erbjuda under hela året.<br>
+        Här hittar du boenden nära naturen och<br>
+        bra utgångspunkter för områdets aktiviteter.<br>
+        Börja planera ditt besök och hitta det som passar dig.
+    </p>
 
+        <button class="planera-button">planera ditt besök</button>
+</section>
 
-</body>
-
+</main>
+<!--footer-->
 <footer>
     <p>© 2024 Norrgläntan. Alla rättigheter förbehållna.</p>
 </footer>
+
+</body>
 </html>
