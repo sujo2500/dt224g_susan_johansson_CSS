@@ -4,6 +4,15 @@
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
 }
+
+.logo-text {
+    font-size: 20px;
+    color: #fcfafa;
+    text-align: left;
+
+
+}
+
 /*--------body--------*/
 body {
     line-height: 1.2;
@@ -62,7 +71,7 @@ nav ul {
     align-items: center;
     justify-content: center;
 }
-
+/*--------hero-content--------*/
 .hero-content {
     max-width: 1000px;
     width: 100%;
@@ -71,6 +80,63 @@ nav ul {
     text-align: left;
     color: #000000;
 }
+
+/*--------h1--------*/
+h1 {
+    font-size: 40px;
+    margin-bottom: 20px;
+    text-align: center;
+
+}
+/*--------h2--------*/
+h2 {
+    font-size: 25px;
+    margin-bottom: 10px;
+    text-align: center;
+
+}
+
+/*--------p--------*/
+p.text1 {
+    font-size: 13px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #f1f1f1;
+}
+
+p.intro-text2 {
+    font-size: 13px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #000000;
+}
+
+/*--------button--------*/
+.wrapper-button {
+    background-color: #01200b00;
+    color: #fcfafa00;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+    cursor: pointer;
+}
+
+.hero-button {
+background-color: #01200b63;
+border-radius: 1000%;
+padding: 0%;
+border: 0;
+color: rgb(0, 0, 0);
+font-family: cursive;
+font-style: bold;
+cursor: pointer;
+}
+button:hover {
+    background-color: #f1f1f100;
+}
+
 
 /*--------card--------*/
 .card-container {
