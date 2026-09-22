@@ -124,12 +124,11 @@ p.intro-text2 {
 }
 
 .hero-button {
-background-color: #01200b63;
-border-radius: 1000%;
+background-color: #01200b00;
 padding: 0%;
 border: 0;
 color: rgb(0, 0, 0);
-font-family: cursive;
+font-size: medium;
 font-style: bold;
 cursor: pointer;
 }
@@ -137,6 +136,11 @@ button:hover {
     background-color: #f1f1f100;
 }
 
+/*--nära till naturen--*/
+.nära {
+    background-color: rgba(13, 70, 9, 0.084);
+
+}
 
 /*--------card--------*/
 .card-container {
@@ -165,4 +169,51 @@ button:hover {
     margin: 10px auto;
     padding:  50px;
     color: #4b4b4b;
+}
+
+/*--planera--*/
+.planera {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 60px 20px;
+    margin: 0%;
+    background-color: #05370d42;
+
+}
+
+.planera-norrgläntan {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    line-height: 1.6;
+    margin: 0%;
+    
+}
+
+.planera.h2 {
+    margin: 0 0 20px;
+    font-size: 2rem;
+}
+
+.planera-button {
+    padding: 12px 24px;
+    background-color: #00000000;
+    border: 1px solid #000;
+    cursor: pointer;
+    text-align: justify;
+    flex-direction: column;
+    margin: 5%;
+}
+
+footer {
+    background-color: #05370d42;
+    text-align: left;
+    padding-bottom: 10%;
+}
+
+.logo.vit {
+    
+
 }
