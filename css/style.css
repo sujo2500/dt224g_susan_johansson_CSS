@@ -5,10 +5,12 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+
 .logo-text {
-    font-size: 20px;
+    font-size: x-large;
     color: #fcfafa;
-    text-align: left;
+    text-align: auto;
+    padding bottom: 10px;
 
 
 }
@@ -20,14 +22,20 @@ body {
 
 /*--------logo--------*/
 .logo {
-    height: 70px;
-    padding: 10px;
+    height: 60px;
+    margin-left: 0;
 }
 /*--------nav--------*/
-nav{
-    display: inline-block;
-    margin-right: 10px;
+nav {
     font-size: 12px;
+}
+
+nav ul {
+    list-style: none;
+    display:inline-flex
+    gap: 20px;
+    text-decoration: none;
+
 }
 
 /*--------link--------*/
@@ -40,9 +48,9 @@ a {
 /*--------header--------*/
 header {
     height: 80px;
-    background-color: #01200b;
+    background-color: #01200bf7;
     border-bottom: 1px solid #070606;
-    padding: 10px 0;
+    padding: 10px 20px;
 }
 .header-wrapper {
     max-width: 1000px;
@@ -50,16 +58,10 @@ header {
     margin: 0 auto;
 
     display: flex;
-    align-items: flex-end;
+    align-items: flex;
     justify-content: space-between;
 }
 
-nav ul {
-    list-style: none;
-    display: flex;
-    gap: 20px;
-    text-decoration: none;
-}
 
 /*--------hero--------*/
 .hero {
@@ -145,13 +147,15 @@ button:hover {
 /*--------card--------*/
 .card-container {
     display: flex;
+    flex-direction: row;
     gap: 20px;
-    justify-content: center;
     margin-top: 20px;
+    padding-bottom: 1%;
 }
 
 .card {
-    width: 30%;
+    width: 100%;
+    max-width: 500px;
 }
 
 .card img {
@@ -162,14 +166,10 @@ button:hover {
 
 .card-content {
     padding: 15px;
+    text-align: center;
+    font-size: small;
 }
 
-.card{
-    max-width: 1000px;
-    margin: 10px auto;
-    padding:  50px;
-    color: #4b4b4b;
-}
 
 /*--planera--*/
 .planera {
@@ -180,6 +180,8 @@ button:hover {
     padding: 60px 20px;
     margin: 0%;
     background-color: #05370d42;
+    padding-top: 2%;
+    padding-bottom: 0%;
 
 }
 
@@ -189,6 +191,8 @@ button:hover {
     text-align: center;
     line-height: 1.6;
     margin: 0%;
+    padding-bottom: 0%;
+    padding-top: 0%;
     
 }
 
@@ -206,14 +210,72 @@ button:hover {
     flex-direction: column;
     margin: 5%;
 }
-
+/*--footer--*/
 footer {
-    background-color: #05370d42;
+    background-color: #01200bf7;
     text-align: left;
-    padding-bottom: 10%;
+
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left: 10px;
 }
 
-.logo.vit {
-    
 
+.footer-logo {
+   width: 40px;
+   height: auto;
+   text-align: left;
+
+}
+
+.footer-text {
+    padding-right: 10px;
+    text-align: center;
+}
+
+.rattigheter {
+    font-size: small;
+    padding-top: 1%;
+    color: white;
+}
+
+
+/*--------mobil--------*/
+@media (max-width: 600px) {
+
+    header {
+        height: auto;
+        padding: 10px 15px;
+    }
+
+    .header-wrapper {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 5px;
+    }
+
+    .logo {
+        height: 45px;
+    }
+
+    .logo-text {
+        font-size: 20px;
+        margin-left: 5px;
+        margin-top: 13px;
+    }
+
+    nav {
+        width: 100%;
+        margin-top: 5px;
+    }
+
+    nav ul {
+        justify-content: center;
+        gap: 12px;
+        flex-wrap: wrap;
+    }
+
+    nav a {
+        font-size: 12px;
+    }
 }
