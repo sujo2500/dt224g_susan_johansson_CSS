@@ -354,12 +354,13 @@ footer {
 
     header {
         height: auto;
-        padding: 10px 15px;
+        padding: 5px 0 0 0;
     }
 
     .header-wrapper {
-        flex-wrap: wrap;
-        justify-content: center;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
         gap: 10px;
     }
 
@@ -371,9 +372,12 @@ footer {
         font-size: 20px;
     }
 
-    .navlist ul {
-        gap: 12px;
-        padding: 0;
+      .navlist ul {
+        display: flex;
+        flex-direction: column;
+        gap: 1;
+        padding-left: 80%;
+
     }
 
     .navlist a {
@@ -387,12 +391,6 @@ footer {
 
     .hero h1 {
         font-size: 36px;
-    }
-
-    .text1 br,
-    .intro-text2 br,
-    .planera p br {
-        display: none;
     }
 
     .nära {
