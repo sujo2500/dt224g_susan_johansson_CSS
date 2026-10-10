@@ -390,6 +390,8 @@ footer {
         font-size: 36px;
     }
 
+
+
     .nära {
         padding: 30px 20px;
         text-align: center;
@@ -409,15 +411,48 @@ footer {
         width: 100%;
     }
 
+    h5 {
+        text-align: center;
+        font-size: 110%;
+    }
+
     .planera {
+        display: flex;
+        flex-direction:column;
+        text-align:start;
         padding: 40px 20px;
+
+    }
+
+    .planera-button {
+        background-color: #0000008a;
+        color: #0c0c0c;
+    }
+
+    /*---foooter*/
+  
+     footer {
+        flex-direction: column;
+        align-items: center;
+        padding: 30px 20px;
+        gap: 30px;
+    }
+
+    .footer-brand {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
         text-align: center;
     }
 
-    footer {
-        flex-direction: column;
-        text-align: center;
-        gap: 25px;
-        padding: 30px 20px;
-    }
+    .footer-textandcontact {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+        width: 100%;
+
 }
+
+
