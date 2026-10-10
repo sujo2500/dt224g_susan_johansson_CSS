@@ -190,7 +190,7 @@ p.intro-text2 {
 
 }
 button:hover {
-    background-color:#000
+    background-color:#00000000
 }
 
 /*--nära till naturen--*/
@@ -269,7 +269,6 @@ button:hover {
 
 /*--footer--*/
 
-/*--------footer--------*/
 
 footer {
     background-color: #01200bf7;
@@ -282,8 +281,6 @@ footer {
     gap: 50px;
 }
 
-
-/* LOGGA + TEXT */
 
 .footer-brand {
     display: flex;
